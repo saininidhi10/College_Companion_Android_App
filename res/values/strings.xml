@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="calculator">Calculator</string>
+    <string name="menu_settings">Settings</string>
+    <string name="button0">0</string>
+    <string name="button1">1</string>
+    <string name="button2">2</string>
+    <string name="button3">3</string>
+    <string name="button4">4</string>
+    <string name="button5">5</string>
+    <string name="button6">6</string>
+    <string name="button7">7</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="buttonAdd">+</string>
+    <string name="buttonSubtract">-</string>
+    <string name="buttonMultiply">*</string>
+    <string name="buttonDivide">/</string>
+    <string name="buttonToggleSign">+/-</string>
+    <string name="buttonDecimalPoint">.</string>
+    <string name="buttonEquals">=</string>
+    <string name="buttonClear">C</string>
+    <string name="buttonClearMemory">MC</string>
+    <string name="buttonAddToMemory">M+</string>
+    <string name="buttonSubtractFromMemory">M-</string>
+    <string name="buttonRecallMemory">MR</string>
+    <string name="buttonSquareRoot">√</string>
+    <string name="buttonSquared">x²</string>
+    <string name="buttonInvert">1/x</string>
+    <string name="buttonSine">sin</string>
+    <string name="buttonCosine">cos</string>
+    <string name="buttonTangent">tan</string>
+    <string name="app_name">VIT Multi Utility App</string>
+    <string name="hello_world"> VIT MULTIUTILITY APP</string>
+    <string name="con">CONVERTER</string>
+    <string name="cal">CALCULATOR</string>
+    <string name="camp">CAMPUS MAPPING</string>
+    <string name="events">EVENTS</string>
+    <string name="len">Convert..</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_converter">Converter</string>
+    <string name="title_activity_calculator">Calculator</string>
+    <string name="title_activity_campus_m">CampusM</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_campus">Campus</string>
+    <string name="title_activity_length">Length</string>
+    <string name="title_activity_currency">Currency</string>
+    <string name="title_activity_weight">Weight</string>
+    <string name="title_activity_temperature">Temperature</string>
+    <string name="title_activity_length1">mm tocm</string>
+    <string name="title_activity_mm_to_cm">mm  to cm</string>
+    <string name="title_activity_cm_to_mm">cm to mm</string>
+    <string name="title_activity_cm_to_m">cm to m</string>
+    <string name="title_activity_mto_cm">m to cm</string>
+    <string name="title_activity_mto_km">m to km</string>
+    <string name="title_activity_km_to_m">km to m</string>
+    <string name="title_activity_gto_kg">g to kg</string>
+    <string name="title_activity_kg_to_g">kg to g</string>
+    <string name="title_activity_kg_to_t">kg to tonne</string>
+    <string name="title_activity_tto_kg">tonne to kg</string>
+    <string name="title_activity_kg_to_p">kg to pound</string>
+    <string name="title_activity_pto_kg">pound to kg</string>
+    <string name="title_activity_cto_f">C to F</string>
+    <string name="title_activity_fto_c">F to C</string>
+    <string name="title_activity_cto_k">C to K</string>
+    <string name="title_activity_kto_c">K to C</string>
+    <string name="title_activity_rto_usd">₹ to $</string>
+    <string name="title_activity_usdto_r">$ to ₹</string>
+    <string name="title_activity_rto_e">₹ to €</string>
+    <string name="title_activity_eto_r">€ to ₹</string>
+    <string name="title_activity_rto_y">₹ to ¥</string>
+    <string name="title_activity_yto_r">¥ to ₹</string>
+    <string name="start_prompt">Choose a Start Point</string>
+ 
+    <string-array name="start_arrays">
+        <item>BUILDING 1</item>
+        <item>BUILDING 2</item>
+        <item>BUILDING 3</item>
+        <item>BUILDING 4</item>
+        <item>JUICE CENTER</item>
+        <item>CANTEEN</item>
+        <item>CAMPUS COMMUNICATION</item>
+        <item>AUDITORIUM</item>
+    </string-array>
+    <string name="dest_prompt">Choose a Destination Point</string>
+ 
+    <string-array name="dest_arrays">
+        <item>BUILDING 1</item>
+        <item>BUILDING 2</item>
+        <item>BUILDING 3</item>
+        <item>BUILDING 4</item>
+        <item>JUICE CENTER</item>
+        <item>CANTEEN</item>
+        <item>CAMPUS COMMUNICATION</item>
+        <item>AUDITORIUM</item>
+    </string-array>
+</resources>

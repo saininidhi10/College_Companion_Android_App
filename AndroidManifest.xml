@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.n5.vitmultiutilityapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".FirstPage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Converter"
+            android:label="@string/title_activity_converter" >
+        </activity>
+        <activity
+            android:name=".Calculator"
+            android:label="@string/title_activity_calculator" >
+        </activity>
+        <activity
+            android:name=".CampusM"
+            android:label="@string/title_activity_campus_m" >
+        </activity>
+        <activity
+            android:name=".Events"
+            android:label="@string/title_activity_events" >
+        </activity>
+        <activity
+            android:name=".Campus"
+            android:label="@string/title_activity_campus" >
+        </activity>
+        <activity
+            android:name=".Length"
+            android:label="@string/title_activity_length" >
+        </activity>
+        <activity
+            android:name=".Currency"
+            android:label="@string/title_activity_currency" >
+        </activity>
+        <activity
+            android:name=".Weight"
+            android:label="@string/title_activity_weight" >
+        </activity>
+        <activity
+            android:name=".Temperature"
+            android:label="@string/title_activity_temperature" >
+        </activity>
+        <activity
+            android:name=".Length1"
+            android:label="@string/title_activity_length1" >
+        </activity>
+        <activity
+            android:name=".MmToCm"
+            android:label="@string/title_activity_mm_to_cm" >
+        </activity>
+        <activity
+            android:name=".CmToMm"
+            android:label="@string/title_activity_cm_to_mm" >
+        </activity>
+        <activity
+            android:name=".CmToM"
+            android:label="@string/title_activity_cm_to_m" >
+        </activity>
+        <activity
+            android:name=".MToCm"
+            android:label="@string/title_activity_mto_cm" >
+        </activity>
+        <activity
+            android:name=".MToKm"
+            android:label="@string/title_activity_mto_km" >
+        </activity>
+        <activity
+            android:name=".KmToM"
+            android:label="@string/title_activity_km_to_m" >
+        </activity>
+        <activity
+            android:name=".GToKg"
+            android:label="@string/title_activity_gto_kg" >
+        </activity>
+        <activity
+            android:name=".KgToG"
+            android:label="@string/title_activity_kg_to_g" >
+        </activity>
+        <activity
+            android:name=".KgToT"
+            android:label="@string/title_activity_kg_to_t" >
+        </activity>
+        <activity
+            android:name=".TToKg"
+            android:label="@string/title_activity_tto_kg" >
+        </activity>
+        <activity
+            android:name=".KgToP"
+            android:label="@string/title_activity_kg_to_p" >
+        </activity>
+        <activity
+            android:name=".PToKg"
+            android:label="@string/title_activity_pto_kg" >
+        </activity>
+        <activity
+            android:name=".CtoF"
+            android:label="@string/title_activity_cto_f" >
+        </activity>
+        <activity
+            android:name=".FtoC"
+            android:label="@string/title_activity_fto_c" >
+        </activity>
+        <activity
+            android:name=".CtoK"
+            android:label="@string/title_activity_cto_k" >
+        </activity>
+        <activity
+            android:name=".KtoC"
+            android:label="@string/title_activity_kto_c" >
+        </activity>
+        <activity
+            android:name=".RToUSD"
+            android:label="@string/title_activity_rto_usd" >
+        </activity>
+        <activity
+            android:name=".USDToR"
+            android:label="@string/title_activity_usdto_r" >
+        </activity>
+        <activity
+            android:name=".RToE"
+            android:label="@string/title_activity_rto_e" >
+        </activity>
+        <activity
+            android:name=".EToR"
+            android:label="@string/title_activity_eto_r" >
+        </activity>
+        <activity
+            android:name=".RToY"
+            android:label="@string/title_activity_rto_y" >
+        </activity>
+        <activity
+            android:name=".YtoR"
+            android:label="@string/title_activity_yto_r" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="@string/title_activity_about"
+            android:parentActivityName=".FirstPage" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.n5.vitmultiutilityapp.FirstPage" />
+        </activity>
+    </application>
+
+</manifest>
